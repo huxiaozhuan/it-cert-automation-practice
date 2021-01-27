@@ -21,6 +21,7 @@ def validate_user(username, minlen):
     # if begin with special char
     if (username[0] in ['_','.']):
 	return False
+	print("Something Wrong")
     return True
 
 print(validate_user("blue.kale", 3)) # True
